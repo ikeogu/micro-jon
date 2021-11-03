@@ -39,12 +39,13 @@ Installation
 8. http://127.0.0.1:8000/api/auth/login To login
 9. http://127.0.0.1:8000/api/auth/register To create a new business
 10. http://127.0.0.1:8000/api/job   using (get method to sell all Jobs)
-11. http://127.0.0.1:8000/api/job Using POST method 
-12. http://127.0.0.1:8000/api/job/id Using Get method to see a 
+11. http://127.0.0.1:8000/api/job Using POST method to store a job
+12. http://127.0.0.1:8000/api/job/id Using Get method to see a job
+13. http://127.0.0.1:8000/api/job/id Using DELETE method to REMOVE a job
+14.  http://127.0.0.1:8000/api/search Using PoST method to search for any Job
+15.  
 
 
-13. Important Notice
-14. Name, Email and Password,it is advisable to add password_confirmation
-15. To create a new JOb, Note You must be authenticated before you can create Job.
-16. 
-17. 
+ Important Notice
+1. Name, Email and Password,it is advisable to add password_confirmation
+2. To create a new JOb, Note You must be authenticated before you can create Job.
