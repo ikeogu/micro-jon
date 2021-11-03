@@ -32,7 +32,7 @@ Installation
 1. Git clone or download 
 2. composer update  w
 3. Set .env file configurations
-4. Migrate DB
+4. Migrate DB or use the sql file in the folder.
 5. run php artisan serve
 6. 
 7. Use Postman You can create a workspace and try the following end points.
